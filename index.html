@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Events</title>
+  <style>
+    #myElement {
+      color: white;
+      background: red;
+      line-height: 5em;
+      text-align: center;
+    }
+
+    #hierarchy li {
+      border: 1px solid green;
+    }
+  </style>
+</head>
+<body>
+
+<div id="myElement">Click all over me</div>
+
+<ul id="hierarchy">
+  <li id="level1">
+    <p>First level</p>
+    <ul>
+      <li id="level2">
+        <p>Second level</p>
+        <ul>
+          <li id="level3">
+            <p>Third level</p>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<ul id="links">
+  <li><a href="#">First link</a></li>
+  <li><a href="#">Second link</a></li>
+  <li><a href="#">Third link</a></li>
+</ul>
+
+<form action="success.html" id="myForm">
+  <p>
+    <input type="text" id="textInput">
+  </p>
+  <p>
+    <button type="submit">Validate and submit</button>
+  </p>
+</form>
+
+<script src="index.js"></script>
+
+</body>
+</html>
